@@ -44,6 +44,8 @@ require __DIR__ . '/vendor/autoload.php';
 
 // Import PostTypes.
 use PostTypes\PostType;
+// Import Taxonomy.
+use PostTypes\Taxonomy;
 
 // Create a book post type.
 $books = new PostType( 'book' );
